@@ -409,17 +409,19 @@
 
 	<field name="x_pixel_size" type="NX_FLOAT" units="NX_LENGTH">
 		<doc>
-		Size of each pixel <b>at the sample level</b>. Takes into account optic magnification. If it is scalar all pixels are the same size.
-	</doc>
+			Size of each pixel <b>at the sample level</b>. Takes into account optic magnification. If it is scalar all pixels are the same size.
+		</doc>
 
-	<dimensions rank="2">
-		<dim index="1" value="i" />
-		<dim index="2" value="j" />
-	</dimensions>
+		<dimensions rank="2">
+			<dim index="1" value="i" />
+			<dim index="2" value="j" />
+		</dimensions>
 	</field>
 
 	<field name="y_pixel_size" type="NX_FLOAT" units="NX_LENGTH">
-		<doc>Size of each pixel <b>at the sample level</b>. Takes into account optic magnification. If it is scalar all pixels are the same size</doc>
+		<doc>
+			Size of each pixel <b>at the sample level</b>. Takes into account optic magnification. If it is scalar all pixels are the same size
+		</doc>
 
 		<dimensions rank="2">
 			<dim index="1" value="i" />
@@ -429,7 +431,7 @@
 
 	<field name="propagation_distance" type="NX_FLOAT" units="NX_LENGTH">
 		<doc>
-			Physical distance between the sample (object) and the detector plane. If we take <i>z1</i> as the distance between the source and the sample, and <i>z2</i> as the distance between the sample and the detector. <b>For parallel beam geometry</b> the propagation distance equals <i>z2</i>. <b>For cone beam geometry</b> the propagation distance equals <i>z1</i><i>*z2</i>/(<i>z1</i>+<i>z2</i>).
+			Physical distance between the sample (object) and the detector plane. If we take ``z1`` as the distance between the source and the sample, and ``z2`` as the distance between the sample and the detector. For parallel beam geometry the propagation distance equals ``z2``. For cone beam geometry the propagation distance equals ``z1`` * ``z2`` / ( ``z1`` + ``z2``).
 		</doc>
 	</field>
 
