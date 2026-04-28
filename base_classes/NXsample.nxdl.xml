@@ -407,25 +407,25 @@
 		</doc>
 	</group>
 
-  <field name="x_pixel_size" type="NX_FLOAT" units="NX_LENGTH">
-    <doc>
-    Size of each pixel <b>at the sample level</b>. Takes into account optic magnification. If it is scalar all pixels are the same size.
-    </doc>
+	<field name="x_pixel_size" type="NX_FLOAT" units="NX_LENGTH">
+		<doc>
+		Size of each pixel <b>at the sample level</b>. Takes into account optic magnification. If it is scalar all pixels are the same size.
+	</doc>
 
-    <dimensions rank="2">
-      <dim index="1" value="i" />
-      <dim index="2" value="j" />
-    </dimensions>
-  </field>
+	<dimensions rank="2">
+		<dim index="1" value="i" />
+		<dim index="2" value="j" />
+	</dimensions>
+	</field>
 
-  <field name="y_pixel_size" type="NX_FLOAT" units="NX_LENGTH">
-    <doc>Size of each pixel <b>at the sample level</b>. Takes into account optic magnification. If it is scalar all pixels are the same size</doc>
+	<field name="y_pixel_size" type="NX_FLOAT" units="NX_LENGTH">
+		<doc>Size of each pixel <b>at the sample level</b>. Takes into account optic magnification. If it is scalar all pixels are the same size</doc>
 
-    <dimensions rank="2">
-      <dim index="1" value="i" />
-      <dim index="2" value="j" />
-    </dimensions>
-  </field>
+		<dimensions rank="2">
+			<dim index="1" value="i" />
+			<dim index="2" value="j" />
+		</dimensions>
+	</field>
 
   <field name="propagation_distance" type="NX_FLOAT" units="NX_LENGTH">
     <doc>Physical distance between the sample (object) and the detector plane. <br>
