@@ -428,7 +428,8 @@
 	</field>
 
 	<field name="propagation_distance" type="NX_FLOAT" units="NX_LENGTH">
-		<doc>Physical distance between the sample (object) and the detector plane. If we take <i>z1</i> as the distance between the source and the sample, and <i>z2</i> as the distance between the sample and the detector. <b>For parallel beam geometry</b> the propagation distance equals <i>z2</i>. <b>For cone beam geometry</b> the propagation distance equals <i>z1</i><i>*z2</i>/(<i>z1</i>+<i>z2</i>).
+		<doc>
+			Physical distance between the sample (object) and the detector plane. If we take <i>z1</i> as the distance between the source and the sample, and <i>z2</i> as the distance between the sample and the detector. <b>For parallel beam geometry</b> the propagation distance equals <i>z2</i>. <b>For cone beam geometry</b> the propagation distance equals <i>z1</i><i>*z2</i>/(<i>z1</i>+<i>z2</i>).
 		</doc>
 	</field>
 
