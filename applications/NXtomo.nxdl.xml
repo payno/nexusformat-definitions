@@ -132,6 +132,11 @@
             <dim value="nFrames" index="1"/>
           </dimensions>
         </field>
+        <field name="propagation_distance" type="NX_FLOAT" units="NX_LENGTH">
+          <doc>
+            Physical distance between the sample (object) and the detector plane. If we take ``z1`` as the distance between the source and the sample, and ``z2`` as the distance between the sample and the detector. For parallel beam geometry the propagation distance equals ``z2``. For cone beam geometry the propagation distance equals ``z1`` * ``z2`` / ( ``z1`` + ``z2``).
+          </doc>
+        </field>
       </group>
       <group type="NXmonitor" name="control" minOccurs="0" maxOccurs="1"> 
         <field name="data" type="NX_FLOAT" units="NX_ANY">
